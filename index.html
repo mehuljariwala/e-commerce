@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" width="125px" />
+          </div>
+          <nav class="navbar-list">
+            <ul id="menu-items">
+              <li>
+                <a href="" target="_blank" rel="noopener noreferrer">Home</a>
+              </li>
+              <li>
+                <a href="" target="_blank" rel="noopener noreferrer"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a href="" target="_blank" rel="noopener noreferrer">About</a>
+              </li>
+              <li>
+                <a href="" target="_blank" rel="noopener noreferrer">Contact</a>
+              </li>
+              <li>
+                <a href="" target="_blank" rel="noopener noreferrer">Account</a>
+              </li>
+            </ul>
+          </nav>
+          <img src="images/cart.png" class="image-cart" alt="cart" srcset="" />
+          <img src="images/menu.png" class="menu-icon" onclick="menuToogle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Give Your Workout <br />
+              A New Style!
+            </h1>
+            <p>
+              Here in this video you will learn to build an eCommerce website
+              step by step using HTML and CSS. In this e-commerce website design
+              we will create Home page of eCommerce website with banner section,
+              some featured categories images, then some featured products with
+              product price, image and rating.
+            </p>
+            <a href="" class="explore-now-link">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/image1.png" alt="" srcset="" class="image1" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Featured Page -->
+
+    <div class="categories">
+      <div class="categories-container">
+        <div class="row">
+          <div class="col-3">
+            <img
+              class="feature-image"
+              src="images/category-1.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="col-3">
+            <img
+              class="feature-image"
+              src="images/category-2.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="col-3">
+            <img
+              class="feature-image"
+              src="images/category-3.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Featured Products -->
+    <div class="categories-container">
+      <h2 class="feature-title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4 feature-product">
+          <img
+            class="feature-image-product"
+            src="images/product-1.jpg"
+            alt=""
+            srcset=""
+          />
+          <h4 class="feature-product-title">Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="feature-product-price">Rs:50.00</p>
+        </div>
+        <div class="col-4 feature-product">
+          <img
+            class="feature-image-product"
+            src="images/product-2.jpg"
+            alt=""
+            srcset=""
+          />
+          <h4 class="feature-product-title">Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="feature-product-price">Rs:50.00</p>
+        </div>
+        <div class="col-4 feature-product">
+          <img
+            class="feature-image-product"
+            src="images/product-3.jpg"
+            alt=""
+            srcset=""
+          />
+          <h4 class="feature-product-title">Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="feature-product-price">Rs:50.00</p>
+        </div>
+        <div class="col-4 feature-product">
+          <img
+            class="feature-image-product"
+            src="images/product-4.jpg"
+            alt=""
+            srcset=""
+          />
+          <h4 class="feature-product-title">Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="feature-product-price">Rs:50.00</p>
+        </div>
+      </div>
+      <h2 class="feature-title">Lastest Products</h2>
+      <div class="row">
+        <div class="col-4 feature-product">
+          <img
+            class="feature-image-product"
+            src="images/product-6.jpg"
+            alt=""
+            srcset=""
+          />
+          <h4 class="feature-product-title">Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="feature-product-price">Rs:50.00</p>
+        </div>
+        <div class="col-4 feature-product">
+          <img
+            class="feature-image-product"
+            src="images/product-7.jpg"
+            alt=""
+            srcset=""
+          />
+          <h4 class="feature-product-title">Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="feature-product-price">Rs:50.00</p>
+        </div>
+        <div class="col-4 feature-product">
+          <img
+            class="feature-image-product"
+            src="images/product-8.jpg"
+            alt=""
+            srcset=""
+          />
+          <h4 class="feature-product-title">Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="feature-product-price">Rs:50.00</p>
+        </div>
+        <div class="col-4 feature-product">
+          <img
+            class="feature-image-product"
+            src="images/product-9.jpg"
+            alt=""
+            srcset=""
+          />
+          <h4 class="feature-product-title">Red Printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p class="feature-product-price">Rs:50.00</p>
+        </div>
+      </div>
+      <!-- offer -->
+    </div>
+    <div class="offer">
+      <div class="offer-container">
+        <div class="row">
+          <div class="col-2">
+            <img
+              src="images/exclusive.png"
+              class="offer-img"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on RedStore</p>
+            <h1>Smart Band 4</h1>
+            <small class="offer-small"
+              >Then there will be more latest products, and one offer section
+              with exclusive product. After that there will be testimonials and
+              top brands section. At the bottom of website we will make footer
+              with 4 columns.</small
+            >
+            <a
+              href="http://"
+              class="offer-buy-now"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Buy Now &#8594;</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial  -->
+    <div class="testimonial">
+      <div class="testimonial-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p class="testimonial-comments">
+              After that we will make the drop down menu for mobile scree and we
+              will make this complete website design responsive from mobile
+              devices.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user-1.png" class="user-img" alt="" srcset="" />
+            <h3>Vivek</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p class="testimonial-comments">
+              After that we will make the drop down menu for mobile scree and we
+              will make this complete website design responsive from mobile
+              devices.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user-2.png" alt="" class="user-img" srcset="" />
+            <h3>Chirag</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p class="testimonial-comments">
+              After that we will make the drop down menu for mobile scree and we
+              will make this complete website design responsive from mobile
+              devices.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/user-3.png" class="user-img" alt="" srcset="" />
+            <h3>Shubham</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Brands  -->
+
+    <div class="brands">
+      <div class="brands-container">
+        <div class="row">
+          <div class="col-5">
+            <img
+              src="images/logo-godrej.png"
+              class="brand-logo"
+              alt="godrej"
+              srcset=""
+            />
+          </div>
+          <div class="col-5">
+            <img
+              src="images/logo-oppo.png"
+              class="brand-logo"
+              alt="oppo"
+              srcset=""
+            />
+          </div>
+          <div class="col-5">
+            <img
+              src="images/logo-coca-cola.png"
+              class="brand-logo"
+              alt="coca-cola"
+              srcset=""
+            />
+          </div>
+          <div class="col-5">
+            <img
+              src="images/logo-paypal.png"
+              class="brand-logo"
+              alt="paypal"
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer  -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our App</h3>
+            <p>Download app for Android Device</p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="" />
+              <img src="images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-white.png" alt="" />
+            <p>Our Purpose is make product more powerful</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2020 - Mehul Jariwala</p>
+      </div>
+    </div>
+
+    <script>
+      let menuItems = document.getElementById("menu-items");
+      menuItems.style.maxHeight = "0px";
+      function menuToogle() {
+        if (menuItems.style.maxHeight === "0px") {
+          menuItems.style.display = "inline-block";
+          menuItems.style.maxHeight = "200px";
+        } else if ((menuItems.style.maxHeight = "200px")) {
+          menuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
